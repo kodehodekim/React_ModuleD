@@ -12,3 +12,20 @@ button {
   height: 50px;
   font-size: 20px;
 }
+
+.h2main {
+  color: green;
+}
+
+.h4-main {
+  color: hotpink;
+  font-style: italic;
+}
+
+.h1header {
+  font-size: 60px;
+  font-style: oblique;
+  font-weight: bold;
+  text-decoration: underline;
+  background-color: brown;
+}
