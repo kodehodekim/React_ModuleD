@@ -1,0 +1,30 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  text-align: center;
+  background-color: rgba(73, 78, 83, 0.801);
+}
+
+header {
+  background-color: green;
+}
+
+h1 {
+  font-size: 90px;
+}
+
+h3 {
+  font-size: 20px;
+}
+
+main {
+  background-color: white;
+}
+
+.card {
+  width: 600px;
+  background-color: blue;
+}
