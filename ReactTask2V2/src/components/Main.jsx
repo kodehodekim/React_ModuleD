@@ -1,3 +1,4 @@
+// prettier-ignore
 // Main content component
 
 function Main() {
@@ -16,7 +17,7 @@ function Main() {
 function PropsCard(props) {
   return (
     <div className="Card">
-      <p>aHDahwdj</p>
+      <p>Tinkledinadawdawdle</p>
       <h3>{props.title}</h3>
       <p>{props.content}</p>
     </div>
