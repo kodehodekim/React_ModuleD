@@ -1,5 +1,5 @@
-// Header component
 // prettier-ignore
+// Header component
 
 function Header() {
   return (
