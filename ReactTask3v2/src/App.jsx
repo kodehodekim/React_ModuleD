@@ -1,19 +1,26 @@
 import { useState } from "react";
 import "./App.css";
-import GetPokeAPI from "./components/pokemon";
+import GetDogAPI from "./components/getapi";
+import logo from "./Doggo.png";
 
 function App() {
+  console.log(logo);
   return (
     <>
       <div className="App">
-        <h1>Pokedex</h1>
+        <img src="{logo}" alt="Photo of a curious dog" className="dogImg" />
+        <h1>Random dog facts from API</h1>
         <p>
-          React task using useEffect to fetch API data and showing it in the
-          following way;
+          React task using useEffect to fetch API data from
+          <br />
+          <a href="https://kinduff.github.io/dog-api/">
+            https://kinduff.github.io/dog-api/
+            <br />
+          </a>
         </p>
       </div>
       <div>
-        <GetPokeAPI />
+        <GetDogAPI />
       </div>
     </>
   );
